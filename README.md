@@ -11,7 +11,7 @@ PAPER: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4049493
 
 ## Instruction
 
-See demo/demo.py for simple example. 
+See demo.py for simple example. 
 
 The main class DeepRegressionEnsemble() can be defined with the following parameters: 
 * depth: maximum depth
