@@ -2,8 +2,8 @@ import setuptools
 from distutils.core import setup
 
 setup(
-  name = 'DeepRegressionEnsemble',
-  packages = ['DeepRegressionEnsemble'],
+  name = 'DeepRegressionEnsembles',
+  packages = ['DeepRegressionEnsembles'],
   version = '0.1',
   license='MIT',
   setup_requires=['wheel'],
