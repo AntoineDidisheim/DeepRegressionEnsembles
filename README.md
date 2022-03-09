@@ -3,6 +3,9 @@ This package proposes an easy application of the paper Deep Regressions Ensemble
 
 PAPER: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4049493
 
+## Installation
+pip install DeepRegressionEnsembles
+
 ## Authors
 * Antoine Didisheim (Swiss Finance Institute, antoine.didisheim@unil.ch)
 * Bryan T. Kelly (Yale SOM; AQR Capital Management, LLC; National Bureau of Economic Research (NBER), bryan.kelly@yale.edu)
