@@ -4,7 +4,7 @@ from distutils.core import setup
 setup(
   name = 'DeepRegressionEnsembles',
   packages = ['DeepRegressionEnsembles'],
-  version = '0.1',
+  version = '0.2',
   license='MIT',
   setup_requires=['wheel'],
   description = 'Tensorflow implementation of the paper Deep Regression Ensemble (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4049493)',
