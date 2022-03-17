@@ -35,5 +35,6 @@ class Data:  # a simple class to fascilatate loading of the data
                 labels = labels / np.std(labels)
 
         labels = labels + noise
+        labels = labels - np.mean(labels)
         return raw_features, labels
 

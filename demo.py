@@ -5,9 +5,11 @@ from DeepRegressionEnsembles import Data, DeepRegressionEnsembles
 if __name__ == "__main__":
 
     # generate three batches of simulated single neurone data for demonstraiton
-    x_train, y_train = Data.generate_single_neurone_data()
-    x_val, y_val = Data.generate_single_neurone_data()
-    x_test, y_test = Data.generate_single_neurone_data()
+    x, y = Data.generate_single_neurone_data()
+    x_train, x_val, x_test = np.array_split(x,3,axis=0)
+    y_train, y_val, y_test = np.array_split(y,3,axis=0)
+
+
 
     # we define a model with maximum depth 3, an output layer with reduction trick 500, k=100 ensembles.
     # in order to save the model after training, we specify a saving directory.
